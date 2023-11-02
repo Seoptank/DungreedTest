@@ -742,7 +742,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d21d847703a6fae4fad945e6b51d703a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cursorImg: {fileID: 2800000, guid: 1610c6001a6f01548a521d071d373cb6, type: 3}
+  cursorImg: {fileID: 2800000, guid: 022a727333af2004eb8ae3d42eecd8ff, type: 3}
 --- !u!1 &1041949051
 GameObject:
   m_ObjectHideFlags: 0
