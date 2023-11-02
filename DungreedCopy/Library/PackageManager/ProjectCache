@@ -5,16 +5,26 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
+<<<<<<< Updated upstream
       ticks: 638344991966208537
     m_Hash: 916576319
+=======
+      ticks: 638345135328067504
+    m_Hash: 4034913288
+>>>>>>> Stashed changes
   m_LockFileStatus:
     m_FilePath: "C:/Users/cnpdi/OneDrive/\uBC14\uD0D5 \uD654\uBA74/DungreedTest/DungreedCopy/Packages/packages-lock.json"
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
+<<<<<<< Updated upstream
       ticks: 638344991966254816
     m_Hash: 3377942639
+=======
+      ticks: 638345135328098113
+    m_Hash: 1010663190
+>>>>>>> Stashed changes
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
