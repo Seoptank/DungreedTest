@@ -6,16 +6,21 @@ public class PlayerController : MonoBehaviour
 {
     [SerializeField]
     private KeyCode         jumpKey = KeyCode.Space;
+    
     private Movement2D      movement;
+    private SpriteRenderer  spriteRenderer; 
+
     private void Awake()
     {
-        movement = GetComponent<Movement2D>();    
+        movement        = GetComponent<Movement2D>();
+        spriteRenderer  = GetComponent<SpriteRenderer>();
     }
 
     private void Update()
     {
         UpdateMove();
         UpdateJump();
+        UpdateSight();
     }
 
     public void UpdateMove()
@@ -43,5 +48,14 @@ public class PlayerController : MonoBehaviour
         {
             movement.isLongJump = false;
         }
+    }
+    public void UpdateSight()
+    {
+        Vector2 mousPos = Input.mousePosition;
+
+        if (mousPos.x < transform.position.x)
+            spriteRenderer.flipX = true;
+        else
+            spriteRenderer.flipX = false;
     }
 }
