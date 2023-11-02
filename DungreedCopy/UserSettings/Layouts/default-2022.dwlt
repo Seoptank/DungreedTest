@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1678
     height: 967
   m_ShowMode: 4
-  m_Title: Scene
+  m_Title: Project
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 321}
   m_MaxSize: {x: 10000, y: 10000}
@@ -872,9 +872,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: e8f4ffff
-      m_LastClickedID: -2840
-      m_ExpandedIDs: 5cf8ffff16fbffff
+      m_SelectedIDs: 285b0000
+      m_LastClickedID: 0
+      m_ExpandedIDs: 8cf9ffff28fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -959,7 +959,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: b65a0000
     m_LastClickedID: 23222
-    m_ExpandedIDs: 00000000b65a0000b85a0000
+    m_ExpandedIDs: 00000000fc5a0000fe5a0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -987,21 +987,21 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: ffffffff00000000b65a0000b85a0000
+    m_ExpandedIDs: ffffffff00000000fc5a0000fe5a0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: KHS
-      m_OriginalName: KHS
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 23278
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 11}
     m_SearchString: 
