@@ -5,17 +5,18 @@ using UnityEngine;
 public class Movement2D : MonoBehaviour
 {
 
-    [Header("ï¿½ï¿½/ï¿½ï¿½ ï¿½Ìµï¿½, ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½")]
+    [Header("ÁÂ/¿ì ÀÌµ¿, Á¡ÇÁ º¯¼ö")]
     [SerializeField]
     private float               moveSpeed = 1.0f;
     [SerializeField]
     private float               jumpForce = 3.0f;
     [SerializeField]
-    private float               lowGravity = 2.0f;  // ï¿½ï¿½ï¿½ï¿½Å°ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ç´ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ß·ï¿½
+    private float               lowGravity = 2.0f;  // Á¡ÇÁÅ°¸¦ ¿À·¡ ´©¸£°í ÀÖÀ»¶§ Àû¿ëµÇ´Â ³·Àº Áß·Â
     [SerializeField]
-    private float               highGravity = 5.0f; // ï¿½Ï¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ç´ï¿½ ï¿½ï¿½ï¿½ï¿½ 
+    private float               highGravity = 5.0f; // ÀÏ¹ÝÀûÀ¸·Î Àû¿ëµÇ´Â Á¡ÇÁ 
 
-    [Header("ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½")]
+    [Header("´õºí Á¡ÇÁ")]
+    public bool                 haveDoubleJump;
     [SerializeField]
     private int                 haveDoubleJump_MaxJumpCount = 2;
     [SerializeField]
@@ -23,7 +24,7 @@ public class Movement2D : MonoBehaviour
     [SerializeField]
     private int                 curJumpCount;
     
-    [Header(" ï¿½ï¿½ Ã¤Å©")]
+    [Header(" ¶¥ Ã¤Å©")]
     [SerializeField]
     private LayerMask       collisionLayer;
     private bool            isGrounded;
